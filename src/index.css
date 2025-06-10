@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import "tailwindcss";
+@plugin "daisyui";
+
+/* .container {
+  size: 1280px;
+} */
+body {
+  overflow-x: hidden;
+}
+
+.slick-arrow {
+  position: absolute;
+  left: 100px;
+  top: 50%;
+  margin-top: -12px;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  juatify-content: center;
+}
+.slick-arrow.next-arrow{
+  left: auto;
+  right: -30px;
+}
+.container{
+size: 1280px;
+
+}
+h3{
+  font-family: "Dancing Script", cursive;
+}
+h2{
+  font-family: "Poppins", sans-serif;
+}
+svg.slick-arrow.slick-next {
+  color: white;
+  background-color: #cd7752;
+  height: 30px;
+  width: 30px;
+  left: auto;
+  right: 5px;
+ border-radius: 100%;
+ padding: 4px;
+}
+svg.slick-arrow.slick-prev{
+  color: white;
+  background-color: #cd7752;
+  position: absolute;
+  border-radius: 100%;
+ padding: 4px;
+  left: -20px;
+  top: -20px;
+  z-index: 7;
+  top: 50%;
+  margin-top: -12px;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  
+}
