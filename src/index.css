@@ -8,6 +8,7 @@
 } */
 body {
   overflow-x: hidden;
+  background-color: white;
 }
 
 .slick-arrow {
@@ -21,20 +22,25 @@ body {
   align-items: center;
   juatify-content: center;
 }
-.slick-arrow.next-arrow{
+
+.slick-arrow.next-arrow {
   left: auto;
   right: -30px;
 }
-.container{
-size: 1280px;
+
+.container {
+  size: 1280px;
 
 }
-h3{
+
+h3 {
   font-family: "Dancing Script", cursive;
 }
-h2{
+
+h2 {
   font-family: "Poppins", sans-serif;
 }
+
 svg.slick-arrow.slick-next {
   color: white;
   background-color: #cd7752;
@@ -42,15 +48,16 @@ svg.slick-arrow.slick-next {
   width: 30px;
   left: auto;
   right: 5px;
- border-radius: 100%;
- padding: 4px;
+  border-radius: 100%;
+  padding: 4px;
 }
-svg.slick-arrow.slick-prev{
+
+svg.slick-arrow.slick-prev {
   color: white;
   background-color: #cd7752;
   position: absolute;
   border-radius: 100%;
- padding: 4px;
+  padding: 4px;
   left: -20px;
   top: -20px;
   z-index: 7;
@@ -60,5 +67,5 @@ svg.slick-arrow.slick-prev{
   width: 30px;
   display: flex;
   align-items: center;
-  
+
 }
