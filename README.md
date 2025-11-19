@@ -1,12 +1,94 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🛋️ Furniro – Modern Furniture E-Commerce Website
 
-Currently, two official plugins are available:
+Furniro is a modern and responsive Furniture E-Commerce Website built using React and Tailwind CSS.
+Users can browse products, view product details, and experience a smooth shopping interface.
+The UI is clean, elegant, and designed to give a premium feel suitable for a real furniture brand.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🌍 Live Website
 
-## Expanding the ESLint configuration
+🔗 https://illustrious-bienenstitch-b79e57.netlify.app/
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📁 GitHub Repository
+
+🔗 Client: https://github.com/1997Maruf/Furniro
+
+📝 Project Overview
+
+Furniro is a responsive frontend furniture store website where users can:
+
+Explore premium furniture collections
+
+View detailed product information
+
+Experience a clean and modern UI
+
+Navigate pages smoothly
+
+Enjoy an elegant, minimalist layout
+
+🎨 UI Features
+
+Fully responsive modern UI
+
+Clean layout with soft colors
+
+Smooth navigation and transitions
+
+Product showcase and grid layout
+
+Detailed product view page
+
+🛠️ Technologies Used
+Frontend
+
+React.js
+
+Tailwind CSS
+
+DaisyUI
+
+React Router
+
+Axios
+
+Tools
+
+Git & GitHub
+
+Netlify (Deployment)
+
+VS Code
+
+📦 Folder Structure
+```Furniro/
+│
+├── public/
+│   └── index.html
+│
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── layout/
+│   ├── hooks/
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── package.json
+└── tailwind.config.js```
+
+🚀 How to Run Locally
+git clone https://github.com/1997Maruf/Furniro
+cd Furniro
+npm install
+npm run dev
+
+👨‍💻 Developer Information
+
+Developer: Maruf Hossen
+📧 Email: mdmarufmeze@gmail.com
+
+🌐 Portfolio: https://1997maruf.github.io/MY-Portpofiy/
+
+🔗 LinkedIn: https://www.linkedin.com/in/maruf-meze-69366a20b/
